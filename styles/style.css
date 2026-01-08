@@ -127,4 +127,50 @@ nav ul li a{
     color:#627382;
     margin-bottom: 16px;
 }
+#solution{
+    width:100%;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    gap:60px;
+    background-color:#FFFFFF;
+    position: relative;
+    z-index: 2;
+    padding: 165px;
+}
+.single-idea{
+    display: flex;
+    gap: 6px;
+}
+.solution-image img{
+    width: 600px;
+    height: 600px;
+} 
+.main-solution-p{
+    font-size: 16px;
+    color:#469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.solution-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color:#001931;
+}
+.main-solution-des{
+    font-size: 16px;
+    color:#627382;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+.single-idea p{
+    font-size: 16px;
+    color:#001931;
+    font-weight: 500;
+}
+.single-idea{
+    margin-bottom: 16px;
+}
 
