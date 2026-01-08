@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter-font-family{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Universl Green Button */
+.green-button{
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
