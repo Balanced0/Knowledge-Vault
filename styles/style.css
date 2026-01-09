@@ -239,10 +239,11 @@ nav ul li a{
     font-size: 20px;
     color:#FFFFFF;
 }
-.early-access button p{
+.early-access button a{
     color:#469165;
     font-size: 16px;
     font-weight: 500;
+    text-decoration:none;
 }
 .early-access button{
     display: flex;
@@ -254,14 +255,12 @@ nav ul li a{
     padding: 8px 12px;
 }
 .early-access button:hover{
-    background-color: #469165;
-    color: #FFFFFF;
-    border: 1px solid #469165;
+    
+    
+    text-decoration:underline;
     cursor: pointer;
 }
-.early-access button p:hover{
-     color: #FFFFFF;
-}
+
 
 
 
